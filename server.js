@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 88
+let port = process.env.PORT | 88
 
 app.get("/", (req,res)=>{
     res.sendFile(__dirname+"fallout.html")
