@@ -6,7 +6,7 @@ app.get("/", (req,res)=>{
     res.sendFile(__dirname+"/falloutinfo.html")
 })
 
-app.get("nuemont", (req,res)=>{
-    res.sendFile(__dirname+"index.html")
+app.get("/nuemont", (req,res)=>{
+    res.sendFile(__dirname+"/index.html")
 })
 app.listen(port, ()=>console.log(port))
