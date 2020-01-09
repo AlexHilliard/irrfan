@@ -7,6 +7,6 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/home", (req,res)=>{
-    res.sendFile(__dirname+"/index.html ")
+    res.sendFile(__dirname+"/index.html")
 })
 app.listen(port, ()=>console.log(port))
