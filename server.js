@@ -7,6 +7,6 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/nuemont", (req,res)=>{
-    res.sendFile(__dirname+"https://www.neumont.edu/")
+    res.sendFile(__dirname+"index.html")
 })
 app.listen(port, ()=>console.log(port))
