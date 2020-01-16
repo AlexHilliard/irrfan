@@ -6,7 +6,7 @@ app.get("/", (req,res)=>{
     res.sendFile(__dirname+"/falloutinfo.html")
 })
 
-app.get("/NukaStyle", (req,res)=>{
+app.get("/NukaStyle.css", (req,res)=>{
     res.sendFile(__dirname+"/TheNukaWeb.css")
 })
 app.listen(port, ()=>console.log(port))
