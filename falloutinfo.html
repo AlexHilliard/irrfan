@@ -1,127 +1,52 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-            <style>
 
-            .collapsible {
-            background-color: #000;
-            color: #0E0;
-            cursor: pointer;
-            padding: 1px;
-            width: 10%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            display: block;
-            }
-
-            .active, .collapsible:hover {
-            background-color: #000;
-            }
-
-            .collapsible:after {
-            content: '\025BE';
-            color: #0C0;
-            font-weight: bold;
-            float: right;
-            margin-left: 5px;
-            }
-
-            .active:after {
-            content: "\025B8";
-            }
-
-            .content {
-            padding: 0 18px;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.2s ease-out;
-            background-color: #000;
-            }
-            .black-back{
-                background-color:black
-            }
-            .hacker-text{
-                color:#00F200
-            }
-            a{
-                color:#00F200
-            }
-            a:active{
-                color: #00aa00
-            }
-            a:visited{
-                color: #005700
-            }
-            a:hover{
-                color: white
-            }
-        </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>My Website</title>
+    <link href="TheNukaWeb.css" rel="stylesheet">
 </head>
-<body class="black-back hacker-text">
-    <aside>
-        <ul>
-            <a href=''><li>Classes</li></a>
-            <a href=''><li>Races</li></a>
-            <a href=''><li>Backgrounds</li></a>
-            <a href='https://www.neumont.edu/' target="_blank"><li>Neumont</li></a>
-        </ul>
-        </aside>
+
+<body>
+
     <header>
-        <h1></h1>
-        <h2>Home</h2>
+        <img src="logo.png" width="400" height="65">
     </header>
+    <section id='combo'>
         <nav>
-            <button class="collapsible"><a href=''>Home</a></button>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <button class="collapsible">Open Section 2</button>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <button class="collapsible">Open Section 3</button>
-            <button class="collapsible">Open Section 3</button>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <button class="collapsible">Open Section 3</button>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>           
-            <button class="collapsible">Open Section 3</button>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
+            <ul>
+                <li><a href="about.html">about</a>
+                </li>
+                <li><a href="services.html">services</a>
+                </li>
+                <li><a href="clients.html">clients</a>
+                </li>
+                <li><a href="contact.html">contact</a>
+                </li>
+            </ul>
         </nav>
 
-
-    <section>
-        <p>Welcome to home page of all the information and up to date balances for all things in this Fallout D&D crossover!</p>
-
+        <aside>
+            <article id='commentary'></article>
+            <h2>Commentary</h2>
+            <p>On June 1, 1865, Senator Charles Sumner commented on what is now considered the most famous speech by President Abraham Lincoln. In his eulogy on the slain president, he called it a "monumental act." He said Lincoln was mistaken that "the world will little note, nor long remember what we say here." Rather, the Bostonian remarked, "The world noted at once what he said, and will never cease to remember it. The battle itself was less important than the speech."</p>
+        </aside>
     </section>
+    <main>
+        <h2>The Gettysburg Address</h2>
+        <h3>November 19, 1863</h3>
+        <p>Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</p>
+        <img src="bee.jpg" id="bee" class="rounded-corners shadow">
+        <p>Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.</p>
+
+        <p>But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.</p>
+    </main>
+
+
     <footer>
-        <p>I love you</p>
+        <p>Copyright &copy;2012 Widget Industries.</p>
     </footer>
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            } 
-          });
-        }
-        </script>
+
 </body>
+
 </html>
