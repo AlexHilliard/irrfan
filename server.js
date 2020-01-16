@@ -5,8 +5,5 @@ let port = process.env.PORT || 8888
 app.get("/", (req,res)=>{
     res.sendFile(__dirname+"/falloutinfo.html")
 })
-
-app.get("/NukaStyle.css", (req,res)=>{
-    res.sendFile(__dirname+"/TheNukaWeb.css")
-})
+app.use(express.static(__dirname));
 app.listen(port, ()=>console.log(port))
