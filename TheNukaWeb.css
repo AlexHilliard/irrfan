@@ -59,7 +59,7 @@ nav a:active {
 }
 
 aside {
-	float: right;
+	float: left;
 	width: 25%;
 	background: #EEA;
 	margin-left: 2%;
