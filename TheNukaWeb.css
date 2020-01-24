@@ -21,7 +21,9 @@ ul {
 header {
 	height: 80px;
 	margin-bottom: 2px;
-	background: #45d979;
+	background-image:  url('https://webgradients.com/public/webgradients_png/054%20Dusty%20Grass.png');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 	text-align: right;
 	padding: 1px 20px;
 	color: #FFF;
@@ -77,7 +79,9 @@ main {
 	padding-left: 10px;
 }
 footer {
-	background: #45d979;
+	background-image:  url('https://webgradients.com/public/webgradients_png/054%20Dusty%20Grass.png');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 	clear: both;
 	height: 3em;
 	margin-top: 1em;
