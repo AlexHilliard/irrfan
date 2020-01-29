@@ -6,7 +6,8 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 }
 body {
-	width: 80%;
+	width: 85%;
+	float: left;
   	min-width: 550px;
 	margin: 0 auto;
 	background: #DDD;
@@ -24,7 +25,7 @@ header {
 	background-image:  url('https://webgradients.com/public/webgradients_png/020%20New%20Life.png');
     background-repeat: repeat-x;
     background-attachment: fixed;
-	text-align: right;
+	text-align: Left;
 	padding: 1px 20px;
 	color: #FFF;
 	
@@ -59,7 +60,9 @@ nav a:hover {
 nav a:active {
 	color: #D55;
 }
-
+li{
+	list-style: none;
+}
 aside {
 	float: left;
 	width: 25%;
@@ -67,7 +70,7 @@ aside {
 	margin-left: 2%;
 	margin-right: 20px;
 	margin-top: 2em;
-	padding: 0 2% 1em 2%;
+	padding: 0 2% 2% 2%;
 	color: #55f;
 	font-size: .8em;
 	font-style: italic;
@@ -84,47 +87,51 @@ footer {
     background-attachment: fixed;
 	clear: both;
 	height: 3em;
-	margin-top: 1em;
+	margin-top: 2%;
 	font-size: .7em;
 	color: #FFF;	
 	padding-left: 15px;
 	padding-top: 2px;
 }
-/* .shadow {
-	-moz-box-shadow: 3px 3px 4px #000;
-	-webkit-box-shadow: 3px 3px 4px #000;
-	box-shadow: 3px 3px 4px #000;
-}
-.rounded-corners {
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
-} 
- .collapsible {
-	background-color: #eee;
-	color: #444;
+.collapsible {
+	background-color: #BBB;
+	color: #55f;
 	cursor: pointer;
-	padding: 18px;
-	width: 100%;
+	padding: 0px;
+	width: 50%;
 	border: none;
 	text-align: left;
 	outline: none;
 	font-size: 15px;
-  }
-  .active, .collapsible:hover {
-	background-color: #ccc;
+	text-decoration: none;
   }
   .content {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
-	background-color: #f1f1f1;
+	background-color: #BBB;}
+  .collapsible:after {
+	content: '\25B8'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: black;
+	float: left;
+	margin-left: 5px;
   }
-  /* .content {
-	padding: 0 18px;
-	background-color: white;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-  } */
+  
+  .active:after {
+	content: "\25BE"; /* Unicode character for "minus" sign (-) */
+  }
+  #container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    border: 1px solid #000;
+    background-color: #ccc;
+    flex: 1;
+}
+#box1 {
+    display: flex;
+    flex-direction: column;
+}
