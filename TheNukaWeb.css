@@ -37,29 +37,22 @@ nav {
 	padding: 0;
 	text-align: left;
 }
-nav li {
+/* li {
 	display: inline-block;
 	color: #600;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-nav a:link {
-	color: #FFF;
-	display: block;
-	text-transform: uppercase;
+} */
+a:link {
+	color: #55f;				
 	text-decoration: none;	
 	padding: 5px 10px;
 }
-nav a:visited {
-	color: #FFF;
+a:visited {
+	color: #55F;
 }
-nav a:hover {
-	color: #A22;
-}
-nav a:active {
-	color: #D55;
-}
+
 li{
 	list-style: none;
 }
