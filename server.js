@@ -5,5 +5,8 @@ let port = process.env.PORT || 8888
 app.get("/", (req,res)=>{
     res.sendFile(__dirname+"/falloutinfo.html")
 })
+app.get("/PHB", (req,res)=>{
+    res.sendFile(__dirname+"/falloutPHB.html")
+})
 app.use(express.static(__dirname));
 app.listen(port, ()=>console.log(port))
