@@ -6,7 +6,7 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 }
 body {
-	width: 85%;
+	width: 90%;
 	float: left;
   	min-width: 550px;
 	margin: 0 auto;
@@ -80,7 +80,7 @@ footer {
     background-attachment: fixed;
 	clear: both;
 	height: 3em;
-	margin-top: 2%;
+	margin-top: 0;
 	font-size: .7em;
 	color: #FFF;	
 	padding-left: 15px;
